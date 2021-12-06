@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.scss';
 
 import { MdConstruction } from 'react-icons/md';
 
@@ -10,6 +10,9 @@ export default function Home() {
       <Head>
         <title>Thiago Mataruco - Gestão de tráfego</title>
         <meta name="description" content="Landing Page para Thiago Mataruco" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Arsenal:ital@0;1&display=swap" rel="stylesheet" />
       </Head>
 
       <main className={styles.main}>
@@ -19,9 +22,8 @@ export default function Home() {
 
         <p className={styles.description}>
           No momento, este site está em construção. Agradecemos a compreensão!
-          <br />
-          <MdConstruction size="10rem" />
         </p>
+        <MdConstruction size="10rem" />
 
         {/* <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
