@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.scss';
 
 import { MdConstruction } from 'react-icons/md';
@@ -10,9 +9,6 @@ export default function Home() {
       <Head>
         <title>Thiago Mataruco - Gestão de tráfego</title>
         <meta name="description" content="Landing Page para Thiago Mataruco" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Arsenal:ital@0;1&display=swap" rel="stylesheet" />
       </Head>
 
       <main className={styles.main}>
