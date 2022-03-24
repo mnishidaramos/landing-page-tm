@@ -14,9 +14,17 @@ export function Header() {
         <header className={styles.headerContainer}>
             <Image width="200" height="100" src="/logo-t-mataruco.png" alt="Logo de Thiago Mataruco" />
 
-            <p>Ligando você a novos clientes</p>
+            <div className={styles.headerMidContent}>
+                <span>Ligando você a novos clientes</span>
 
-            <span>{currentDate}</span>
+                <div className={styles.headerLinks}>
+                    <a href='#'>Home</a>
+                    <a href='#' className={styles.anchorInactive}>Sobre</a>
+                    <a href='#' className={styles.anchorInactive}>Serviços</a>
+                </div>
+            </div>
+
+            <span className={styles.cDate}>{currentDate}</span>
         </header>
     )
 }

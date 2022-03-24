@@ -2,7 +2,7 @@
 
 <img src="./public/logo-t-mataruco.png" alt="Imagem Logo">
 
-> Projeto consiste em uma landing page para o cliente, que trabalha com gerenciamento de tráfego
+> Projeto consiste em uma landing page para o cliente, que trabalha na área de gerenciamento de tráfego.
 
 ### Ajustes e melhorias
 
@@ -24,9 +24,9 @@ O projeto ainda está em desenvolvimento e as seguintes partes são planejadas:
 * [Sass](https://sass-lang.com)
 * etc.
 
-### Obsercações
+### Observações
 * Este software foi desenvolvido no [Visual Studio Code](https://code.visualstudio.com) utilizando o Windows 10 como SO
 * Para executar o sistema e comandos no Yarn, foi utilizado o [Windows Subsystem for Linux](https://docs.microsoft.com/pt-br/windows/wsl/install)
 
-<!-- ## 🔥 Preview
-[![Deploy with Vercel](https://vercel.com/button)](https://nlw5-reactjs-com-nextjs.vercel.app) -->
+## 🔥 Preview
+[![Deploy with Vercel](https://vercel.com/button)](https://landing-page-tm.vercel.app/)

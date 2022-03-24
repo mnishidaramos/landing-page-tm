@@ -1,0 +1,106 @@
+.coverContainer {
+    background-image: url('../../../public/capa-t-mataruco.png');
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 6.5rem);
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+    .summaryBox{
+        width: 40vw;
+        flex-grow: 1;
+        flex-direction: column;
+        padding: 0 2rem;
+        margin: 0 2.5vw 0 5vw;
+        background-color: rgba(255, 241, 214,0.75);
+        border-radius: 10px;
+        
+        p {
+            font-family: 'Arsenal', sans-serif;
+            font-size: 1.90rem;
+            text-align: justify;
+            color: #663500;
+        }
+    }
+    
+    .contactBox {
+        background-color: rgba(255, 241, 214,0.95);
+        border-radius: 10px;
+        padding: 2rem;
+        margin: 0 5vw 0 2.5vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .contactTitle {
+            font-size: 1.75rem;
+            font-family: 'Arsenal', sans-serif;
+            margin-bottom: 1rem;
+            color: #402100;
+        }
+
+        .inputBox {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+
+            input {
+                width: 100%;
+                height: 3rem;
+                border-radius: 5px;
+                border: 1px solid #eaeaea;
+                padding: 0.5rem;
+                margin-bottom: 1rem;
+                font-size: 1.5rem;
+                font-family: 'Arsenal', sans-serif;
+            }
+            
+            label {
+                font-size: 1.5rem;
+                font-family: 'Arsenal', sans-serif;
+                margin-bottom: 1rem;
+                color: #663500;
+            }
+            
+            textarea {
+                width: 100%;
+                height: 5rem;
+                resize: none;
+                border-radius: 5px;
+                border: 1px solid #eaeaea;
+                font-family: inherit;
+                font-size: inherit;
+            }
+
+            
+            input:focus, textarea:focus {
+                border: 1px solid #663500;
+                outline: none;
+            }
+            
+        }
+        //Button blue with white text on margin right
+        button {
+            background-color: #663500;
+            color: #eaeaea;
+            border: none;
+            padding: 1rem;
+            font-size: 1.5rem;
+            font-family: 'Arsenal', sans-serif;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            margin-top: 1rem;
+            width: 100%;
+            
+            &:hover {
+                background-color: #402100;
+            }
+
+        }
+    }
+}
